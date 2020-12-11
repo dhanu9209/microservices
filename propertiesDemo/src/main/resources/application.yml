@@ -1,0 +1,22 @@
+config:
+    ThirdPary:
+        UserName: martin
+        host: 192.168.0.0.4
+        port: 9091
+    UserName: martin
+    host: 192.168.0.0.1
+    port: 9091
+list: '{"a", "b", "1"}'
+server:
+    port: 9090
+spring:
+    application:
+        name: propertiesDemo
+user:
+    fb:
+        gmailPassword: p123
+        gmailuserNAme: guser
+        password: pass123
+        userName: user123
+values:
+    map: '{key1: ''1'', key2: ''2'', key3: ''3''}'
